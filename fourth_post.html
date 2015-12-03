@@ -87,12 +87,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>Much has happened but I've gotta practice</p>
+                    <p>These are some practice problems and the code I wrote to solve them.</p>
 
-                    <h2 class="section-heading">Ruby, Babe.</h2>
-
+                    <h2 class="section-heading">Flatten this array:</h2>
+                    <p>This first problem made me nervous at first glance. Since I've been learning Rails and Bootstrap, I hadn't practiced writing any simple Ruby programs for weeks.</p>
                     <p><code>
                         array = ["1", 3, "Home", [4], "Word", [3, "Eight"]]<br>
+                        <hr>
                         flat_array = []<br>
                         array.each do |item|<br>
                         if item.is_a? Array<br>
@@ -104,8 +105,29 @@
                         end<br>
                         p flat_array<br>
                     </code></p>
+                    <p>First, I knew I needed to create an array ("flat_array") to store the new flattened array.</p>
+                    <p>If the array was filled with non-array items, flattening wouldn't be neccessary. I needed a way to deal with the nested arrays. Simple enough... find the arrays with an if statement so I could treat them differently during the rest of the block.</p>
+                    <p>If the item in the array is another array, iterate through each item in the inner array and shovel them into the array "flat_array".</p>
+                    <p>For all other items (which are luckily not collections in this example) simply shovel with no fanfare.</p>
+                    <p>Et Voilå! I get to print my new flattened array which remains in the same order as the original arrays.</p>
 
                     <!-- <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p> -->
+
+                    <h2 class="section-heading">Calculate the average (mean) of an array of numbers:</h2>
+                    <p><code>Driver code:<br>
+                        p average([3, 2, 1])  should be 2<br>
+                        p average([8, 9])  should be 8.5<br>
+                        p average([1, 1, 1, 2])  should be 1.25</code></p>
+                    <p><code>
+                        input_array = [8, 9]<br>
+                        total = 0.0<br>
+                        input_array.each do |num|<br>
+                          total += num<br>
+                        end<br>
+                        average = total / input_array.length<br>
+                        p average<br>
+                    </code></p>
+                    <p>First, I knew I needed to create an array ("flat_array") to store the new flattened array.</p>
                 </div>
             </div>
         </div>
