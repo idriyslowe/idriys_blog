@@ -128,6 +128,26 @@
                         p average<br>
                     </code></p>
                     <p>Let's begin.</p>
+
+                     <h2 class="section-heading">Create a hash which groups names by their first letter. The keys are the first letter, the values are arrays of names:</h2>
+                    <p><code>Driver code:<br>
+                        p names_by_first_letter(["Adam", "Charlie", "Alex"]) 
+                        should be {"A" => ["Adam", "Alex"], "C" => ["Charlie"]}<br>
+                        p names_by_first_letter(["Adam", "Bobby"])
+                        should be {"A" => ["Adam"], "B" => ["Bobby"]}<br>
+                        p names_by_first_letter(["Adam", "Charlie", "alex"]) should be {"A" => ["Adam"], "a" => ["alex"], "C" => ["Charlie"]}<br>
+                        </code></p>
+                    <p><code>
+                        array = ["ashley", "charlie", "adam", "ariel"]
+                        name_hash = {}
+                        array.each do |name|
+                            (name_hash[name[0]] ||= []) << name
+                            p name_hash
+                          end
+                    </code></p>
+                    <p>I have no idea how I accomplished this. The internet helped. That's it.</p>
+                    <p>JK JK. I got most of the way and needed a nudge to figure out how to shovel into an array that's nested inside of a hash.</p>
+                    <p>Thank god for <a href="http://stackoverflow.com/questions/5009295/pushing-elements-onto-an-array-in-a-ruby-hash">Stack Overflow.</a> It reminded me that those pipes do some crazy thing.</p>
                 </div>
             </div>
         </div>
