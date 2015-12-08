@@ -74,7 +74,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
                         <h1>Ruby Practice!</h1>
-                        <h2 class="subheading">Work through it with me?</h2>
+                        <h2 class="subheading">Work through these with me!</h2>
                         <span class="meta">Posted by <a href="#">Idriys</a> on December 2, 2015</span>
                     </div>
                 </div>
@@ -87,8 +87,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>These are some practice problems and the code I wrote to solve them.</p>
-
                     <h2 class="section-heading">Flatten this array:</h2>
                     <p>This first problem made me nervous at first glance. Since I've been learning Rails and Bootstrap, I hadn't practiced writing any simple Ruby programs for weeks.</p>
                     <p><code>
@@ -127,18 +125,16 @@
                         average = total / input_array.length<br>
                         p average<br>
                     </code></p>
-                    <p>Let's begin.</p>
+                    <p>This probably isn't the cleanest code you've ever seen for this type of problem but I wrote it in less than 15 minutes so give me some credit. Early in this program, I need to create a variable that will hold the total of all numbers and since I know the average won't neccessarily be a whole number, I'm declaring the value a float by assigning the decimal, 0.0.</p>
+                    <p>I iterate through the array, adding each number to the total using the += abbreviated assignment operator. After all that hoopla, I create a variable that will hold the final answer which is the total divided by the original array's length.</p>
 
                      <h2 class="section-heading">Create a hash which groups names by their first letter. The keys are the first letter, the values are arrays of names:</h2>
                     <p><code>Driver code:<br>
-                        p names_by_first_letter(["Adam", "Charlie", "Alex"]) 
-                        should be {"A" => ["Adam", "Alex"], "C" => ["Charlie"]}<br>
-                        p names_by_first_letter(["Adam", "Bobby"])
-                        should be {"A" => ["Adam"], "B" => ["Bobby"]}<br>
-                        p names_by_first_letter(["Adam", "Charlie", "alex"]) should be {"A" => ["Adam"], "a" => ["alex"], "C" => ["Charlie"]}<br>
+                        p names_by_first_letter(["Adam", "Charlie", "alex"])<br>
+                        should be {"A" => ["Adam"], "a" => ["alex"], "C" => ["Charlie"]}<br>
                         </code></p>
                     <p><code>
-                        array = ["ashley", "charlie", "adam", "ariel"]
+                        array = ["Adam", "Charlie", "alex"]
                         name_hash = {}
                         array.each do |name|
                             (name_hash[name[0]] ||= []) << name
