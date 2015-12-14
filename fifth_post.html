@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Idriys Life</title>
+    <title>Posts</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" type="image/x-icon" href="fhttp://www.favicon.cc/logo3d/237660.png" />
+
 </head>
 
 <body>
@@ -44,12 +44,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Hi Folks!</a>
+<!--                 <a class="navbar-brand" href="index.html">Start Bootstrap</a> -->
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
                     <li>
                         <a href="index.html">Posts</a>
                     </li>
@@ -69,30 +72,41 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="page-heading">
-                        <h1>WELCOME TO ME!</h1>
-                        <hr class="small">
-                        <span class="subheading">The Idriys-life is full of wonders... and RidiCulouSssss...ness</span>
+                    <div class="post-heading">
+                        <h1>More Ruby Practice!</h1>
+                        <h2 class="subheading">!!!</h2>
+                        <span class="meta">Posted by <a href="#">Idriys</a> on December 13, 2015</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul>
-                    <li><a href="first_post">My Coding History</a></li>
-                    <li><a href="second_post">Boot Camp</a></li>
-                    <li><a href="third_post">Terminal Illness</a></li>
-                    <li><a href="fourth_post">Ruby Practice</a></li>
-                    <li><a href="fifth_post">Ruby Practice Round 2</a></li>
-                </ul>
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h2 class="section-heading">Determine if two strings are anagrams (case insensitive)</h2>
+                    <p>Driver code:</p>
+                    <p>
+                      p anagram.anagrams?("cinema", "iceman")<br>
+                      p anagram.anagrams?("Cinema", "IceMan")<br>
+                      p anagram.anagrams?("baseball", "ballbass")</p>
+                    <p><code>
+                      class Anagrams<br>
+                        def anagrams?(word1, word2)<br>
+                          array1 = word1.downcase.split('').sort<br>
+                          array2 = word2.downcase.split('').sort<br>
+                          array1 == array2<br>
+                        end<br>
+                      end<br>
+                      anagram = Anagrams.new<br>
+                    </code></p>
+                </div>
             </div>
         </div>
-    </div>
+    </article>
 
     <hr>
 
@@ -102,6 +116,14 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
+                     <!--    <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li> -->
                         <li>
                             <a href="https://www.facebook.com/idriys.grant.7">
                                 <span class="fa-stack fa-lg">
