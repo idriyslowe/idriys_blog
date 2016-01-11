@@ -3,7 +3,12 @@
  * Copyright 2014 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
-
+div.outer {
+  display: block;
+}
+div.drop {
+  display: inline-block;
+}
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
