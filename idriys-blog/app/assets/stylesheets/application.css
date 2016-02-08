@@ -18,3 +18,7 @@
  body {
   background-image: url("tweed_@2X.png");
  }
+
+ div.page-header h1, p {
+  color: #BFDDE2;
+ }
