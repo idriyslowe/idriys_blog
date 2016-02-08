@@ -1,0 +1,30 @@
+<body>
+    <!-- Post Content -->
+    <article>
+        <div>
+            <div>
+                <div>
+                    <h2>Determine if two strings are anagrams (case insensitive)</h2>
+                    <p>Driver code:</p>
+                    <p><code>
+                      p anagram.anagrams?("cinema", "iceman")<br>
+                      p anagram.anagrams?("Cinema", "IceMan")<br>
+                      p anagram.anagrams?("baseball", "ballbass")</code></p>
+                      <hr>
+                    <p><code>
+                      class Anagrams<br>
+                        def anagrams?(word1, word2)<br>
+                          array1 = word1.downcase.split('').sort<br>
+                          array2 = word2.downcase.split('').sort<br>
+                          array1 == array2<br>
+                        end<br>
+                      end<br>
+                      anagram = Anagrams.new<br>
+                    </code></p>
+                </div>
+            </div>
+        </div>
+    </article>
+</body>
+
+</html>
