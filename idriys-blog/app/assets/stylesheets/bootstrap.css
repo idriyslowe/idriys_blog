@@ -5009,17 +5009,20 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
+/*  color: inherit;*/
+  background-color: #d6f5f5;
+  opacity: 0.5;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+/*  color: inherit;*/
+  color: #000000;  
 }
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
+  color: #000000;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
