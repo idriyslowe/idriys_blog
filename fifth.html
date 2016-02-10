@@ -1,0 +1,40 @@
+<body>
+    <div class="page-header">
+        <h1>WELCOME TO ME!</h1>
+        <p>The Idriys-life is full of wonders... and RidiCulouSssss...ness</p>
+    </div>
+    <!-- Post Content -->
+  <article>
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="jumbotron">
+          <h1>Ruby Practice Round 2</h1>
+          <h2>Determine if two strings are anagrams (case insensitive)</h2>
+          <p>Driver code:</p>
+          <p><code>
+            p anagram.anagrams?("cinema", "iceman")<br>
+            p anagram.anagrams?("Cinema", "IceMan")<br>
+            p anagram.anagrams?("baseball", "ballbass")</code></p>
+            <hr>
+          <p><code>
+            class Anagrams<br>
+              def anagrams?(word1, word2)<br>
+                array1 = word1.downcase.split('').sort<br>
+                array2 = word2.downcase.split('').sort<br>
+                array1 == array2<br>
+              end<br>
+            end<br>
+            anagram = Anagrams.new<br>
+          </code></p>
+        </div>
+      </div>  
+      <div class="col-md-1"></div>  
+  </article>
+    <div class="clearfix"></div>
+    <nav>
+      <ul class="pager">
+        <li class="previous"><a href="/fourth"><span aria-hidden="true">&larr;</span> Older</a></li>
+        <li class="next"><a href="/index">Home <span aria-hidden="true">&rarr;</span></a></li>
+      </ul>
+    </nav>
+</body>
