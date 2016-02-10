@@ -4872,8 +4872,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: rgba(202, 222, 226, 0.46);
+  border: 1px solid #BFDDE2;
   border-radius: 15px;
 }
 .pager li > a:hover,
