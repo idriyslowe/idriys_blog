@@ -35,42 +35,47 @@
         <p>The Idriys-life is full of wonders... and RidiCulouSssss...ness</p>
     </div>
     <!-- Post Content -->
-  <article>
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        <div class="jumbotron">
-          <h1>Ruby Practice Round 2</h1>
-          <h2>Determine if two strings are anagrams (case insensitive)</h2>
-          <p>Driver code:</p>
-          <p><pre>
-            p anagram.anagrams?("cinema", "iceman")<br>
-            p anagram.anagrams?("Cinema", "IceMan")<br>
-            p anagram.anagrams?("baseball", "ballbass")</pre></p>
-            <hr>
-          <p>My solution:</p>  
-          <p><pre>
-            class Anagrams<br>
-              def anagrams?(word1, word2)<br>
-                array1 = word1.downcase.split('').sort<br>
-                array2 = word2.downcase.split('').sort<br>
-                array1 == array2<br>
-              end<br>
-            end<br>
-            anagram = Anagrams.new<br>
-          </pre></p>
-          <p>The Anagrams class I wrote only has one method called "anagrams?". It takes in two words as arguments ("word1" & "word2"). Each word is made completely lowercase, turned into an array of letters, and sorted. Downcasing ensures the letters all sort equally. Now "word1"'s sorted letters are stored in "array1" while "word2" is stored in "array2".</p>
-          <p>The last line of the "anagrams" method checks the equality of the two arrays and will spit out "true" or "false". This is the friendly reason the "anagrams?" method ends with a question mark. Oftentimes, that operator is a choice the writer made, or a hint that the method results in a boolean. It was my first hint when deciphering the driver code.</p>
+    <article>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">         
+            <div class="jumbotron">
+            <h1>Bootcamp Final Project</h1>
+            <p>This is supposed to be an accumulation of everything I learned?! Ack!!!</p>
+
+            <h2>Study App: Studere!</h2>
+
+            <p>Studere is the name of my final project. Yes, I know that name is cheesy but I think I was picking fun of myself before anyone else got the chance. At the midway point in the bootcamp, we were supposed to have conceived of a project idea to present to strangers at the end of the course and all I could think about was how hard it was to organize my studies. How about I make an application that helps me organize myself? Easy, right?</p>
+
+            <p>Well, it wasn't easy to wrap my mind around conceiving, designing, building a whole web application myself. At this point in the camp, I just learned what something like that would take... didn't have to apply much of that knowlege yet without being prompted. I'll describe this beast of a project for you kind folks as best I can.</p>
+
+            <p>My first order of business was creating a spreadsheet to collect all of my thoughts. You don't know this about me (unless I'm a worse writer than I thought) but my brain is a circus. Focus to me loosely translates to "gain inspiration from this thing and then move on". Much of what I write here will be a re-interpretation of my notes which were broken down to four sheets in one Googlesheet document.</p>
+
+            <p>I won't bother sharing an image here (you know what lists of words look like) but for your knowlege, the sheets were called:</p> 
+            
+            <h3>Concept:</h3>
+            <p>Listed the features I needed for an MVP.</p>
+
+            <h3>Tables/Controllers:</h3>
+            <p>Wireframe, Model descriptions, Any nitty-gritty data-related notes.</p>
+              
+            <h3>Notes:</h3>
+            <p>List of tasks STEP BY STEP (I mean it) and hanging questions.</p>
+
+            <h3>Done:</h3>
+            <p>Listed all completed tasks in case I needed to go back and check a detail.</p>
+            
+            <p>Keep reading. The next pose will be more interesting. I promise.</p>
+            </div>
         </div>
-      </div>  
-      <div class="col-md-1"></div>  
-  </article>
-    <div class="clearfix"></div>
-    <nav>
-      <ul class="pager">
-        <li class="previous"><a href="fourth.html"><span aria-hidden="true">&larr;</span> Older</a></li>
-        <li class="next"><a href="sixth.html">Newer <span aria-hidden="true">&rarr;</span></a></li>
-      </ul>
-    </nav>
+        <div class="col-md-1"></div>    
+    </article>
+        <div class="clearfix"></div>
+        <nav>
+          <ul class="pager">
+            <li class="previous"><a href="fifth.html"><span aria-hidden="true">&larr;</span> Older</a></li>
+            <li class="next"><a href="index.html">Home <span aria-hidden="true">&rarr;</span></a></li>
+          </ul>
+        </nav>
 </body>
 
 </div>
