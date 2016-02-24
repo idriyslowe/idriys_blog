@@ -5,7 +5,8 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 div.page-header h1, p {
-  color: #BFDDE2;
+  /*color: #BFDDE2;*/
+  color: #eef7f7;
 }
 
 html {
@@ -1418,7 +1419,8 @@ a.bg-danger:focus {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #BFDDE2;
+  border-bottom: 1px solid #eef7f7;
+  color: #eef7f7;
 }
 ul,
 ol {
@@ -5015,7 +5017,8 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
 /*  color: inherit;*/
-  background-color: rgba(202, 222, 226, 0.46);
+  /*background-color: rgba(202, 222, 226, 0.46);*/
+  background-color: #eef7f7;
 }
 .jumbotron h1, a,
 .jumbotron .h1 {
