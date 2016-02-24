@@ -29,18 +29,20 @@
 
   <div class="container">
 
-<body>
-    <div class="page-header">
-        <h1>WELCOME TO ME!</h1>
-        <p>The Idriys-life is full of wonders... and RidiCulouSssss...ness</p>
-    </div>  
+<body> 
 <!-- Post Content -->
     <article>
         <div class="col-md-1"></div>
-        <div class="col-md-10">        
+        <div class="col-md-10">
+            <div class="jumbotron-title">
+              <div class="jumbotron">
+                  <h1>WELCOME TO ME!</h1>
+                  <p>The Idriys-life is full of wonders</p>
+              </div>   
+            </div>              
             <div class="jumbotron">
                 <h1>Ruby Practice</h1>
-                <h2>Flatten this array:</h2>
+                <h3>Flatten this array:</h3>
                 <p>This first problem made me nervous at first glance. Since I've been learning Rails and Bootstrap, I hadn't practiced writing any simple Ruby programs for weeks.</p>
                 <p><pre>
                     array = ["1", 3, "Home", [4], "Word", [3, "Eight"]]<br>
@@ -62,7 +64,7 @@
                 <p>For all other items (which are luckily not collections in this example) simply shovel with no fanfare.</p>
                 <p>Et Voilå! I get to print my new flattened array which remains in the same order as the original arrays.</p>
 
-                <h2>Calculate the average (mean) of an array of numbers:</h2>
+                <h3>Calculate the average (mean) of an array of numbers:</h3>
                 <p>Driver code:</p>
                   <p><pre>                  
                     p average([3, 2, 1])  should be 2<br>
@@ -82,7 +84,7 @@
                 <p>This probably isn't the cleanest code you've ever seen for this type of problem but I wrote it in less than 15 minutes so give me some credit. Early in this program, I need to create a variable that will hold the total of all numbers and since I know the average won't neccessarily be a whole number, I'm declaring the value a float by assigning the decimal, 0.0.</p>
                 <p>I iterate through the array, adding each number to the total using the += abbreviated assignment operator. After all that hoopla, I create a variable that will hold the final answer which is the total divided by the original array's length.</p>
 
-                <h2>Create a hash which groups names by their first letter. The keys are the first letter, the values are arrays of names:</h2>
+                <h3>Create a hash which groups names by their first letter. The keys are the first letter, the values are arrays of names:</h3>
                 <p>Driver code:</p>
                   <p><pre>
                     p names_by_first_letter(["Adam", "Charlie", "alex"])<br>

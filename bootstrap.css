@@ -5012,12 +5012,17 @@ a.badge:focus {
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
+.jumbotron-title .jumbotron {
+  background-color: rgba(202, 222, 226, 0.46);
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
 /*  color: inherit;*/
-  /*background-color: rgba(202, 222, 226, 0.46);*/
   background-color: #eef7f7;
 }
 .jumbotron h1, a,
@@ -5030,6 +5035,9 @@ a.badge:focus {
   font-size: 21px;
   font-weight: 200;
   color: #000000;
+}
+.jumbotron h2 {
+  font-size: 50px;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
