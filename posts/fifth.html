@@ -11,7 +11,7 @@
     <title>Idriys Life</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="bootstrap.css" rel="stylesheet">
+    <link href="../bootstrap.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -25,51 +25,59 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" type="image/x-icon" href="fhttp://www.favicon.cc/logo3d/237660.png" /> 
-</head>
+  </head>
 
   <div class="container">
 
-<body>
+  <body>
     <!-- Post Content -->
-    <article>
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <div class="jumbotron-title">
-            <div class="jumbotron">
-              <a href="index.html"><h1>WELCOME TO ME!</h1></a>
-              <h3>
-                <a href="https://www.linkedin.com/in/idriyslowe">(LinkedIn) |</a>
-                <a href="https://github.com/idriyslowe"> | (Github) |</a>
-                <a href="https://obscure-refuge-26784.herokuapp.com/"> | ("Studere" App -- Work In Progress) |</a>
-                <a href="resume.html"> | (Resume)</a>
-              </h3>
-            </div> 
-          </div>
-          <div class="jumbotron">
-          <h1>Bootcamp</h1>
-          <p>I'm midway through the second week of in-person classes.</p>
-          <p>My brain hurts so good.</p>
-
-          <h2>Finally... I've seen Rails.</h2>
-
-          <p>We began last Sunday (November 8, 2015) we sped through a rough intro to HTML and CSS in class. I got the gist of inline vs. block-level elements. I got the gist of nesting elements within eachother or marking elements with classes or ids for the sake of grouping and styling later on... but boy was I bored. Nothing felt like it was really clicking. Why?</p>
-
-          <p>I realized very quickly that most of my frustration and boredom with anything ever has everything to do with not having a reason. There was no pet project. No real ulitmate goal. I didn't even have real competition. I don't like to design. I like to win!</p>
-
-          <blockquote>“What does it mean to be the best? It means you have to be better than the number two guy. But what gratification is there in that? He's a loser—that’s why he's number two.”  -Jarod Kintz</blockquote>
-
-          <p>No, but in all seriousness you can just google most of the HTML or CSS you need so long as you get the syntax and keep a consistent workflow. I'll touch more on design as I get a better hang of it.</p>
-          </div>
+  <article>
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <div class="jumbotron-title">
+        <div class="jumbotron">
+          <a href="../index.html"><h1>WELCOME TO ME!</h1></a>
+          <h3>
+            <a href="https://www.linkedin.com/in/idriyslowe">(LinkedIn) |</a>
+            <a href="https://github.com/idriyslowe"> | (Github) |</a>
+            <a href="https://obscure-refuge-26784.herokuapp.com/"> | ("Studere" App -- Work In Progress) |</a>
+            <a href="resume.html"> | (Resume)</a>
+          </h3>
+        </div> 
+      </div>
+      <div class="jumbotron">
+          <h1>Ruby Practice Round 2</h1>
+          <h3>Determine if two strings are anagrams (case insensitive)</h3>
+          <p>Driver code:</p>
+          <p><pre>
+            p anagram.anagrams?("cinema", "iceman")<br>
+            p anagram.anagrams?("Cinema", "IceMan")<br>
+            p anagram.anagrams?("baseball", "ballbass")</pre></p>
+            <hr>
+          <p>My solution:</p>  
+          <p><pre>
+            class Anagrams<br>
+              def anagrams?(word1, word2)<br>
+                array1 = word1.downcase.split('').sort<br>
+                array2 = word2.downcase.split('').sort<br>
+                array1 == array2<br>
+              end<br>
+            end<br>
+            anagram = Anagrams.new<br>
+          </pre></p>
+          <p>The Anagrams class I wrote only has one method called "anagrams?". It takes in two words as arguments ("word1" & "word2"). Each word is made completely lowercase, turned into an array of letters, and sorted. Downcasing ensures the letters all sort equally. Now "word1"'s sorted letters are stored in "array1" while "word2" is stored in "array2".</p>
+          <p>The last line of the "anagrams" method checks the equality of the two arrays and will spit out "true" or "false". This is the friendly reason the "anagrams?" method ends with a question mark. Oftentimes, that operator is a choice the writer made, or a hint that the method results in a boolean. It was my first hint when deciphering the driver code.</p>
         </div>
-        <div class="col-md-1"></div>    
-    </article>
-        <div class="clearfix"></div>
-        <nav>
-          <ul class="pager">
-            <li class="previous"><a href="first.html"><span aria-hidden="true">&larr;</span> Older</a></li>
-            <li class="next"><a href="third.html">Newer <span aria-hidden="true">&rarr;</span></a></li>
-          </ul>
-        </nav>
+      </div>  
+      <div class="col-md-1"></div>  
+  </article>
+    <div class="clearfix"></div>
+    <nav>
+      <ul class="pager">
+        <li class="previous"><a href="fourth.html"><span aria-hidden="true">&larr;</span> Older</a></li>
+        <li class="next"><a href="sixth.html">Newer <span aria-hidden="true">&rarr;</span></a></li>
+      </ul>
+    </nav>
 </body>
 
 </div>
