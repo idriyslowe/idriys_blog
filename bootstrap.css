@@ -18,7 +18,7 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-image: url("tweed_@2X.png");
+  background-image: url("tweed.png");
 }
 article,
 aside,
@@ -6818,3 +6818,69 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+/*-----------------Idriys additions--------------------*/
+/*left point triangle anchors*/
+  #star-five {
+   margin: 0px 0;
+   position: absolute;
+   display: block;
+   color: #F34915;
+   width: 0px;
+   height: 0px;
+   left: -140px;
+   border-right:  200px solid transparent;
+   border-bottom: 140px  solid #F34915;
+   border-left:   200px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+   z-index: -1;
+}
+/*top triangle*/
+#star-five:before {
+   border-bottom: 160px solid #F34915;
+   border-left: 60px solid transparent;
+   border-right: 60px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -113px;
+   left: -153px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+   z-index: -1;
+
+}
+/*right point triangle*/
+#star-five:after {
+   position: absolute;
+   display: block;
+   color: #F34915;
+   top: 20px;
+   left: -230px;
+   width: 0px;
+   height: 0px;
+   border-right: 200px solid transparent;
+   border-bottom: 140px solid #F34915;
+   border-left: 200px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+   z-index: -1;
+}
+
+/*not being used*/
+.index-well {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  padding-left: 45px;
+  background-color: #eef7f7;
+}
