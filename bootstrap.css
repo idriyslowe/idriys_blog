@@ -5030,10 +5030,14 @@ a.badge:focus {
 /*  color: inherit;*/
   color: #000000;
   text-decoration: none;
+  text-align: center;
 }
 .jumbotron h3 a,
 .jumbotron h3 a:hover {
   text-decoration:none;
+}
+.jumbotron h3 {
+  text-align: center;
 }
 .jumbotron p {
   margin-bottom: 15px;
