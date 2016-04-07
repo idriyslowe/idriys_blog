@@ -18,7 +18,7 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-image: url("images/tweed.png");
+  /*background-image: url("images/tweed.png");*/
 }
 article,
 aside,
@@ -1094,7 +1094,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #13140F;
 }
 input,
 button,
@@ -5013,7 +5013,7 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron-title .jumbotron {
-  background-color: rgba(202, 222, 226, 0.46);
+  background-color: rgba(228, 255, 230, 0.49);
   padding-top: 5px;
   padding-bottom: 10px;
   margin-bottom: 30px;
@@ -5022,12 +5022,10 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-/*  color: inherit;*/
-  background-color: #eef7f7;
+  background-color: #E4FFE6;
 }
 .jumbotron h1, a, a:hover,
 .jumbotron .h1 {
-/*  color: inherit;*/
   color: #000000;
   text-decoration: none;
   text-align: center;
@@ -6886,11 +6884,52 @@ button.close {
    z-index: -1;
 }
 
-/*not being used*/
-.index-well {
+/*not in use*/
+.post-date-well {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  padding-left: 45px;
-  background-color: #eef7f7;
+  margin-left: -1px;
+  background-color: #E4FFE6;
+  min-height: 100%;
+}
+.svg-magic {
+  background-image: url(images/cloud.svg);
+  background-repeat: no-repeat;
+  height: 482px;
+  /*background-size: cover;*/
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.svg-magic h1, a, a:hover,
+.jumbotron .h1 {
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+.svg-magic h3 a,
+.svg-magic h3 a:hover {
+  text-decoration:none;
+}
+.svg-magic h3, span a {
+  text-align: center;
+}
+.svg-magic p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 200;
+  color: #000000;
+  text-align: center;
+}
+.svg-magic h2 {
+  font-size: 50px;
+}
+.svg-magic > hr {
+  border-top-color: #d5d5d5;
+}
+
+.path {
+  fill: #E4FFE6;
+  stroke: #E4FFE6;
 }
