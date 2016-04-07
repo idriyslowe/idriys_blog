@@ -1094,7 +1094,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #13140F;
+  background-color: #193441;
 }
 input,
 button,
@@ -6897,7 +6897,6 @@ button.close {
   background-image: url(images/cloud.svg);
   background-repeat: no-repeat;
   height: 482px;
-  /*background-size: cover;*/
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
@@ -6924,6 +6923,7 @@ button.close {
 }
 .svg-magic h2 {
   font-size: 50px;
+  padding-top: 150px;
 }
 .svg-magic > hr {
   border-top-color: #d5d5d5;
