@@ -5060,7 +5060,6 @@ a.badge:focus {
 .svg-magic > hr {
   border-top-color: #d5d5d5;
 }
-
 .jumbotron-title .jumbotron {
   background-color: rgba(228, 255, 230, 0.49);
   padding-top: 5px;
@@ -5090,7 +5089,9 @@ a.badge:focus {
   font-size: 18px;
   font-weight: 200;
   color: #000000;
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .jumbotron h2 {
   font-size: 50px;
