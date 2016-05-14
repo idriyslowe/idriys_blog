@@ -45,68 +45,9 @@
         <div class="col-md-1"></div>
         <div class="col-md-10"> 
            <div class="jumbotron">
-                <h1>Ruby Practice</h1>
-                <h3>Flatten this array:</h3>
-                <p>This first problem made me nervous at first glance. Since I've been learning Rails and Bootstrap, I hadn't practiced writing any simple Ruby programs for weeks.</p>
-                <p><pre>
-                    array = ["1", 3, "Home", [4], "Word", [3, "Eight"]]<br>
-                    
-                    flat_array = []<br>
-                    array.each do |item|<br>
-                      if item.is_a? Array<br>
-                        item.each do |item|<br>
-                        flat_array << item<br>
-                      end<br>
-                      else flat_array << item<br>
-                      end<br>
-                    end<br>
-                    p flat_array<br>
-                </pre></p>
-                <p>First, I knew I needed to create an array ("flat_array") to store the new flattened array.</p>
-                <p>If the array was filled with non-array items, flattening wouldn't be neccessary. I needed a way to deal with the nested arrays. Simple enough... find the arrays with an if statement so I could treat them differently during the rest of the block.</p>
-                <p>If the item in the array is another array, iterate through each item in the inner array and shovel them into the array "flat_array".</p>
-                <p>For all other items (which are luckily not collections in this example) simply shovel with no fanfare.</p>
-                <p>Et Voilå! I get to print my new flattened array which remains in the same order as the original arrays.</p>
-
-                <h3>Calculate the average (mean) of an array of numbers:</h3>
-                <p>Driver code:</p>
-                  <p><pre>                  
-                    p average([3, 2, 1])  should be 2<br>
-                    p average([8, 9])  should be 8.5<br>
-                    p average([1, 1, 1, 2])  should be 1.25</pre></p>
-                    <hr>
-                <p>My solution:</p>  
-                <p><pre>
-                    input_array = [8, 9]<br>
-                    total = 0.0<br>
-                    input_array.each do |num|<br>
-                      total += num<br>
-                    end<br>
-                    average = total / input_array.length<br>
-                    p average
-                </pre></p>
-                <p>This probably isn't the cleanest code you've ever seen for this type of problem but I wrote it in less than 15 minutes so give me some credit. Early in this program, I need to create a variable that will hold the total of all numbers and since I know the average won't neccessarily be a whole number, I'm declaring the value a float by assigning the decimal, 0.0.</p>
-                <p>I iterate through the array, adding each number to the total using the += abbreviated assignment operator. After all that hoopla, I create a variable that will hold the final answer which is the total divided by the original array's length.</p>
-
-                <h3>Create a hash which groups names by their first letter. The keys are the first letter, the values are arrays of names:</h3>
-                <p>Driver code:</p>
-                  <p><pre>
-                    p names_by_first_letter(["Adam", "Charlie", "alex"])<br>
-                    should be {"A" => ["Adam"], "a" => ["alex"], "C" => ["Charlie"]}<br>
-                    </pre></p>
-                    <hr>
-                <p>My solution:</p>  
-                <p><pre>
-                    array = ["Adam", "Charlie", "alex"]
-                    name_hash = {}
-                    array.each do |name|
-                      (name_hash[name[0]] ||= []) << name
-                      p name_hash
-                    end
-                </pre></p>
-                <p>I have no idea how I accomplished this. The internet helped. That's it.</p>
-                <p>JK JK. I got most of the way and needed a nudge to figure out how to shovel into an array that's nested inside of a hash.</p>
-                <p>Thank god for <a href="http://stackoverflow.com/questions/5009295/pushing-elements-onto-an-array-in-a-ruby-hash">Stack Overflow.</a> It reminded me that those pipes do some crazy things.</p>
+                <h1>"space-game"</h1>
+                <p>Angular 1 and HTML5 Canvas 2d game. Collaboration with Michael Vanderwood.</p>
+                <p>Collaboration with Michael Vanderwood.</p>
             </div>
         </div>
         <div class="col-md-1"></div>    
