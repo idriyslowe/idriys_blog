@@ -4886,10 +4886,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager .next > a,
 .pager .next > span {
   float: right;
+  margin-right: 1%;
 }
 .pager .previous > a,
 .pager .previous > span {
   float: left;
+  margin-left: 1%;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -5040,7 +5042,7 @@ a.badge:focus {
 }
 .svg-magic p {
   margin-bottom: 15px;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 200;
   color: #000000;
   margin-left: -10%;
@@ -5093,11 +5095,11 @@ a.badge:focus {
   font-weight: 200;
   color: #000000;
   text-align: left;
-  padding-left: 5%;
   padding-right: 5%;
 }
 .jumbotron h2 {
   font-size: 50px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -6986,4 +6988,18 @@ button.close {
 }
 .name-title h1 {
   color: white;
+  text-decoration:none;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.about-title {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.about-title p {
+  color: white;
+  text-align: justify;
+  text-decoration:none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-left: 5%;
 }
