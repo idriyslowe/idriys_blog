@@ -6888,6 +6888,15 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 /*-----------------Idriys additions--------------------*/
+.contact-info a {
+  text-align: left;
+  padding-left: 155px;
+  display: block;
+}
+.skills-table th, td {
+  padding: 10px;
+  border: 1px solid black;
+}
 /*left point triangle anchors*/
   #star-five {
    margin: 0px 0;
