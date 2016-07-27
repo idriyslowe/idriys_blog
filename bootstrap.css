@@ -5034,7 +5034,7 @@ a.badge:focus {
   background-repeat: no-repeat;
   padding-top: 110px;
   margin-left: -35%;
-
+  text-shadow: 2px 2px 5px #FFFFFF;
   font-size: 50px;
   font-family: Georgia, Times, 'Times New Roman', serif;
   font-size: 60px;
@@ -5060,6 +5060,7 @@ a.badge:focus {
   font-weight: 200;
   color: #000000;
   margin-left: -40%;
+  background-color: rgba(255, 255, 255, 0.80);
 }
 .svg-magic h6 {
   margin-bottom: 15px;
@@ -7011,7 +7012,7 @@ button.close {
   width: 60%;
   margin: 0 auto;
   padding-bottom: 5px;
-  padding-top: 10px;
+  padding-top: 15px;
   border: 5px solid white;
 }
 .about-title p {
