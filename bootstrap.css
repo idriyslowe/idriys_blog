@@ -5014,17 +5014,31 @@ a.badge:focus {
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
-/*commented out code is a way to set styles based on media*/
-/*@media (max-device-width: 600px) and (orientation: landscape) {*/
-  .svg-magic {
-    background-image: url(images/cloud.svg);
-    background-repeat: no-repeat;
-    height: 482px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-  }
-/*}*/
+.svg-magic {
+  background-image: url(images/cloud.svg);
+  background-repeat: no-repeat;
+  height: 482px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.outline-cloud {
+  background-image: url(images/cloud-blue.svg);
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-left: 250px;
+  margin-top: -15px;
+}
+.index-post-name {
+  background-image: url(images/cloud-outline.svg);
+  background-repeat: no-repeat;
+  padding-top: 110px;
+  margin-left: -35%;
+
+  font-size: 50px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 60px;
+}
 .svg-magic h1, a, a:hover,
 .svg-magic .h1 {
   color: #000000;
@@ -5045,7 +5059,7 @@ a.badge:focus {
   font-size: 17px;
   font-weight: 200;
   color: #000000;
-  margin-left: -10%;
+  margin-left: -40%;
 }
 .svg-magic h6 {
   margin-bottom: 15px;
@@ -5054,13 +5068,6 @@ a.badge:focus {
   color: #000000;
   margin-left: -9%;
   margin-top: -2%;
-}
-.svg-magic h2 {
-  font-size: 50px;
-  padding-top: 110px;
-  margin-left: -10%;
-  font-family: Georgia, Times, 'Times New Roman', serif;
-  font-size: 60px;
 }
 .svg-magic > hr {
   border-top-color: #d5d5d5;
@@ -6992,9 +6999,11 @@ button.close {
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
 .about-title {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  border: 5px solid white;
 }
 .about-title p {
   color: white;
