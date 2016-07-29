@@ -5022,7 +5022,8 @@ a.badge:focus {
   height: 482px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .outline-cloud {
   background-image: url(images/cloud-blue.svg);
@@ -5035,7 +5036,7 @@ a.badge:focus {
   background-image: url(images/cloud-outline.svg);
   background-repeat: no-repeat;
   padding-top: 110px;
-  margin-left: -35%;
+  margin-left: -40%;
   font-size: 50px;
   font-family: Imprima;
   font-size: 60px;
@@ -5049,7 +5050,7 @@ a.badge:focus {
 .svg-magic h3 a,
 .svg-magic h3 a:hover {
   text-decoration:none;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Imprima;
 }
 .svg-magic h3, span a {
   margin-left: 30%;
@@ -5088,6 +5089,12 @@ a.badge:focus {
   text-decoration: none;
   text-align: center;
 }
+.jumbotron h1, h2, h3, h4, h5, h6 {
+  font-family: Imprima;
+}
+.jumbotron li {
+  font-family: Cantata;
+}
 .jumbotron h3 a,
 .jumbotron h3 a:hover {
   text-decoration:none;
@@ -5104,7 +5111,7 @@ a.badge:focus {
 }
 .jumbotron h2 {
   font-size: 50px;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Imprima;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -6990,21 +6997,21 @@ button.close {
   stroke: #E4FFE6;
 }
 .name-title h1 {
-  color: white;
+  color: black;
   text-decoration:none;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Imprima;
 }
 .about-title {
   width: 60%;
   margin: 0 auto;
   padding-bottom: 5px;
   padding-top: 15px;
-  border: 5px solid white;
+  border: 5px solid black;
 }
 .about-title p {
-  color: white;
+  color: black;
   text-align: justify;
   text-decoration:none;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Cantata;
   padding-left: 5%;
 }
