@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@font-face { font-family: Cantata; src: url('CantataOne-Regular.ttf'); } 
+@font-face { font-family: Imprima; src: url('Imprima-Regular.ttf'); } 
 div.page-header h1, p {
   /*color: #BFDDE2;*/
   color: #eef7f7;
@@ -12,8 +14,8 @@ div.page-header h1, p {
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-      height: 100%;
+  -ms-text-size-adjust: 100%;
+  height: 100%;
 }
 body {
   margin: 0;
@@ -1094,7 +1096,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #193441;
+  background-color: #D8E8E6;
 }
 input,
 button,
@@ -5020,7 +5022,8 @@ a.badge:focus {
   height: 482px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .outline-cloud {
   background-image: url(images/cloud-blue.svg);
@@ -5033,10 +5036,9 @@ a.badge:focus {
   background-image: url(images/cloud-outline.svg);
   background-repeat: no-repeat;
   padding-top: 110px;
-  margin-left: -35%;
-  text-shadow: 2px 2px 5px #FFFFFF;
+  margin-left: -40%;
   font-size: 50px;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Imprima;
   font-size: 60px;
 }
 .svg-magic h1, a, a:hover,
@@ -5048,11 +5050,11 @@ a.badge:focus {
 .svg-magic h3 a,
 .svg-magic h3 a:hover {
   text-decoration:none;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Imprima;
 }
 .svg-magic h3, span a {
   margin-left: 30%;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Cantata;
 }
 .svg-magic p {
   margin-bottom: 15px;
@@ -5060,7 +5062,6 @@ a.badge:focus {
   font-weight: 200;
   color: #000000;
   margin-left: -40%;
-  background-color: rgba(255, 255, 255, 0.80);
 }
 .svg-magic h6 {
   margin-bottom: 15px;
@@ -5069,9 +5070,6 @@ a.badge:focus {
   color: #000000;
   margin-left: -9%;
   margin-top: -2%;
-}
-.svg-magic > hr {
-  border-top-color: #d5d5d5;
 }
 .jumbotron-title .jumbotron {
   background-color: transparent;
@@ -5091,6 +5089,12 @@ a.badge:focus {
   text-decoration: none;
   text-align: center;
 }
+.jumbotron h1, h2, h3, h4, h5, h6 {
+  font-family: Imprima;
+}
+.jumbotron li {
+  font-family: Cantata;
+}
 .jumbotron h3 a,
 .jumbotron h3 a:hover {
   text-decoration:none;
@@ -5107,7 +5111,7 @@ a.badge:focus {
 }
 .jumbotron h2 {
   font-size: 50px;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Imprima;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -6960,65 +6964,54 @@ button.close {
   height: 0px;
   position: absolute;
   right: -150px;
-  border-top: 80px solid #D1DBBD;
-  border-right: 500px solid transparent;
-  margin-top: 100px;
+  border-top: 80px solid #EAF3F5;
+  border-right: 400px solid transparent;
+  margin-top: 150px;
   z-index: -1;
 }
 #cloud-extend {
-  width: 50%;
-  height: 90px;
+  width: 90%;
+  height: 60px;
   position: absolute;
   margin-top: 240px;
-  right: 0px;
-  background: #FCFFF5;
+  margin-left: 50%;
+  border-top: 15px solid #E4FFE6;
+  border-bottom: 15px solid #E4FFE6;
   z-index: -1;
 }
 #light {
-  width: 40%;
-  height: 0px;
+  width: 70%;
+  height: 50px;
   position: absolute;
-  right: -150px;
-  border-top: 50px solid #91AA9D;
-  border-right: 500px solid transparent;
-  margin-top: 390px;
+  margin-left: 55%;
+  border-top: 20px solid #FFFFFF;
+  border-bottom: 20px solid #FFFFFF;
+  margin-top: 350px;
   z-index: -1;
-  -ms-transform: rotate(30deg); /* IE 9 */
-  -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
-  transform: rotate(30deg);
-}
-#mist {
-  width: 900px;
-  height: 180px;
-  position: absolute;
-  margin-top: 160px;
-  right: 0px;
-  background: #3E606F;
-  z-index: -1;
-  -ms-transform: rotate(3deg); /* IE 9 */
-  -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-  transform: rotate(3deg);
+  -ms-transform: rotate(13deg); /* IE 9 */
+  -webkit-transform: rotate(13deg); /* Chrome, Safari, Opera */
+  transform: rotate(13deg);
 }
 .path {
   fill: #E4FFE6;
   stroke: #E4FFE6;
 }
 .name-title h1 {
-  color: white;
+  color: black;
   text-decoration:none;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Imprima;
 }
 .about-title {
   width: 60%;
   margin: 0 auto;
   padding-bottom: 5px;
   padding-top: 15px;
-  border: 5px solid white;
+  border: 5px solid black;
 }
 .about-title p {
-  color: white;
+  color: black;
   text-align: justify;
   text-decoration:none;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Cantata;
   padding-left: 5%;
 }
